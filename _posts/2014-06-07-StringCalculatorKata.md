@@ -14,6 +14,8 @@ With some practice you should be able to complete entire Kata in under [25 minut
 - Do one step at a time - work incrementally.  
 - Make sure you only test for correct inputs - there is no need to test for invalid inputs
 
+----------------------------------------------------------------------------------------------
+
 #### Steps ####
 
 ##### Step 1 #####
