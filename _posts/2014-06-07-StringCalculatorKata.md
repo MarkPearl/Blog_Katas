@@ -10,7 +10,7 @@ With some practice you should be able to complete entire Kata in under [25 minut
 
 ----------------------------------------------------------------------------------------------
 
-### The Process ###
+#### The Process ####
 
 - Try not to read ahead.  
 - Do one step at a time - work incrementally.  
@@ -18,9 +18,9 @@ With some practice you should be able to complete entire Kata in under [25 minut
 
 ----------------------------------------------------------------------------------------------
 
-### Steps ###
+#### Steps ####
 
-#### Step 1 ####
+##### Step 1 #####
 
 Create a simple String calculator with a method that takes a string and returns a number
 i.e. int Add(string numbers)  
@@ -29,7 +29,7 @@ i.e. int Add(string numbers)
 Add("") > Returns 0
 ~~~
 
-#### Step 2 ####
+##### Step 2 #####
 
 A single number returns that number
 
@@ -38,7 +38,7 @@ Add("1") > Returns 1
 Add("3") > Returns 3
 ~~~
 
-#### Step 3 ####
+##### Step 3 #####
 
 Two numbers returns the sum of the numbers  
 
@@ -47,7 +47,7 @@ Add("1,2") > Returns 3
 Add("3,5") > Returns 8
 ~~~
 
-#### Step 4 ####
+##### Step 4 #####
 
 Any unknown amount of numbers returns the sum of those numbers 
 
@@ -56,7 +56,7 @@ Add("1,2,3") > Returns 6
 Add("3,5,3,9") > Returns 20
 ~~~
 
-#### Step 5 ####
+##### Step 5 #####
 
 New line breaks and commas should be interchangeable between numbers   
 
@@ -71,7 +71,7 @@ The following is not ok, don't write a test but be aware...
 Add("1,\n")
 ~~~
 
-#### Step 6 ####
+##### Step 6 #####
 
 Support different delimiters. To change a delimiter, the beginning of the string will contain a separate line that looks like this:   
 
@@ -83,7 +83,7 @@ Add("//;\n1;2") > Returns 3
 
 The first section is optional. All existing steps should still be supported.  
 
-#### Step 7 ####
+##### Step 7 #####
 
 Calling add with a negative number will throw an exception "Negatives not allowed" and the negative number that was passed.  
 
@@ -91,7 +91,7 @@ Calling add with a negative number will throw an exception "Negatives not allowe
 Add("-1,2,-3") > Throws exception with Negatives not allowed: -1, -3  
 ~~~
 
-#### Step 8 ####
+##### Step 8 #####
 
 Numbers bigger than 1000 should be ignored.  
 
@@ -137,7 +137,7 @@ Add("//[*1*][%]\n1*1*2%3") > Returns 6
 
 ----------------------------------------------------------------------------------------------
 
-### Quick Summary of the rules ###
+#### Quick Summary of the rules ####
 
 - Empty String Returns 0  
 - Two Numbers returns Sum  
@@ -150,7 +150,7 @@ Add("//[*1*][%]\n1*1*2%3") > Returns 6
 - Allow multiple delimiter "//[%][;]\n1%2;3"=6  
 - Multiple delimiter of any length  
 
-### Notes on some sections ###
+#### Notes on some sections ####
 
 Split string 
 
