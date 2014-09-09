@@ -51,6 +51,60 @@ New line breaks and commas should be interchangeable between numbers
 **Add("1,2\n3") > Returns 6**
 **Add("3\n5\n3,9") > Returns 20**
 
+The following is not ok, don't write a test but be aware... 
+
+**Add("1,\n")**
+
+##### Step 6 #####
+
+Support different delimiters. To change a delimiter, the beginning of the string will contain a separate line that looks like this:   
+
+"//[delimiter]\n[numbers...]"  
+
+**Add("//;\n1;2") > Returns 3**  
+
+The first section is optional. All existing steps should still be supported.  
+
+##### Step 7 #####
+
+Calling add with a negative number will throw an exception "Negatives not allowed" and the negative number that was passed.  
+
+**Add("-1,2,-3") > Throws exception with Negatives not allowed: -1, -3**  
+
+##### Step 8 #####
+
+Numbers bigger than 1000 should be ignored.  
+
+**Add("1000,1001,2") > Returns 2**  
+
+##### Step 9 #####
+
+Delimiters can be of any length with the following format...  
+
+**"//[delimiter]\n"**  
+
+**Add("//[***]\n1***2***3") > Returns 6**  
+
+
+##### Step 10 #####
+
+Allow multiple delimiters...  
+
+"//[delim1][delim2]\n"
+
+**Add("//[*][%]\n1*2%3") > Returns 6**  
+
+##### Step 11 #####
+
+Handle multiple delimiters with a length longer than one character...  
+
+**Add("//[***][#][%]\n1***2#3") > Returns 6**  
+
+##### Step 12 #####
+
+Handle delimiters that have numbers as part of them, where the number cannot be on the edge of a delimiter...  
+
+**Add("//[*1*][%]\n1*1*2%3") > Returns 6**  
 
 #### Quick Summary of the rules ####
 
