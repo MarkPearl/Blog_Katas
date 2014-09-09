@@ -8,6 +8,22 @@ Roy Osherove's String Calculator Kata is a great kata as for some practices like
 
 With some practice you should be able to complete entire Kata in under [25 minutes](https://www.youtube.com/watch?v=tBt3O43sk0k).  
 
+#### The Process ####
+
+- Try not to read ahead.  
+- Do one task at a time - work incrementally.  
+- Make sure you only test for correct inputs - there is no need to test for invalid inputs for this kata  
+
+#### The Steps ####
+
+##### Step 1 #####
+
+Create a simple String calculator with a method int Add(string numbers).  
+An empty string returns zero, example Add("") return 0;  
+
+
+
+
 
 
 #### Quick Summary of the rules ####
@@ -22,9 +38,6 @@ With some practice you should be able to complete entire Kata in under [25 minut
 - Delimiter of any length "//[dd]\n|[dd]2"=3  
 - Allow multiple delimiter "//[%][;]\n1%2;3"=6  
 - Multiple delimiter of any length  
-
-#### Detailed Rules ####
-
 
 #### Notes on some sections ####
 
