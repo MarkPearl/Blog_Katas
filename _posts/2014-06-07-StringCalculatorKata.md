@@ -25,27 +25,27 @@ With some practice you should be able to complete entire Kata in under [25 minut
 Create a simple String calculator with a method that takes a string and returns a number
 i.e. int Add(string numbers)  
 
+~~~
 **Add("") > Returns 0**
-
-----------------------------------------------------------------------------------------------
+~~~
 
 #### Step 2 ####
 
 A single number returns that number
 
+~~~
 **Add("1") > Returns 1**
 **Add("3") > Returns 3**
-
-----------------------------------------------------------------------------------------------
+~~~
 
 #### Step 3 ####
 
 A two numbers returns the sum  
 
+~~~
 **Add("1,2") > Returns 3**
 **Add("3,5") > Returns 8**
-
-----------------------------------------------------------------------------------------------
+~~~
 
 #### Step 4 ####
 
