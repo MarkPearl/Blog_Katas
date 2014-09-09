@@ -108,6 +108,8 @@ Handle delimiters that have numbers as part of them, where the number cannot be 
 
 **Add("//[*1*][%]\n1*1*2%3") > Returns 6**  
 
+----------------------------------------------------------------------------------------------
+
 #### Quick Summary of the rules ####
 
 - Empty String Returns 0  
