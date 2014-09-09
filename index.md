@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Software Development
-tagline: my thoughts and comments
+title: Kata's for Software Developments
+tagline: Because, sometimes talking about creating good software isn't enough...
 ---
 {% include JB/setup %}
 
