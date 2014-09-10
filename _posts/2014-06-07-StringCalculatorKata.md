@@ -4,9 +4,7 @@ title: String Calculator Kata
 tags: Useful
 category: General
 ---
-Roy Osherove's String Calculator Kata is a great way to learn practices like test driven development, code navigation and refactoring.  
-
-With some practice you should be able to complete entire Kata in under [25 minutes](https://www.youtube.com/watch?v=tBt3O43sk0k).  
+Roy Osherove's String Calculator Kata is a great way to learn practices like test driven development, code navigation and refactoring. With some practice you should be able to complete entire Kata in under [25 minutes](https://www.youtube.com/watch?v=tBt3O43sk0k).  
 
 ----------------------------------------------------------------------------------------------
 
@@ -18,12 +16,11 @@ With some practice you should be able to complete entire Kata in under [25 minut
 
 ----------------------------------------------------------------------------------------------
 
-#### Steps ####
+#### The Steps ####
 
 ##### Step 1 #####
 
-Create a simple String calculator with a method that takes a string and returns a number
-i.e. int Add(string numbers)  
+Create a simple string calculator with a method that takes a string and returns a number.  
 
 ~~~
 Add("") > Returns 0
@@ -31,7 +28,7 @@ Add("") > Returns 0
 
 ##### Step 2 #####
 
-A single number returns that number
+A single number returns that number.  
 
 ~~~
 Add("1") > Returns 1
@@ -40,7 +37,7 @@ Add("3") > Returns 3
 
 ##### Step 3 #####
 
-Two numbers returns the sum of the numbers  
+Two numbers return the sum of the numbers.  
 
 ~~~
 Add("1,2") > Returns 3
@@ -49,7 +46,7 @@ Add("3,5") > Returns 8
 
 ##### Step 4 #####
 
-Any unknown amount of numbers returns the sum of those numbers 
+Any amount of numbers returns the sum of those numbers.  
 
 ~~~
 Add("1,2,3") > Returns 6
@@ -58,7 +55,7 @@ Add("3,5,3,9") > Returns 20
 
 ##### Step 5 #####
 
-New line breaks and commas should be interchangeable between numbers   
+New line breaks and commas should be interchangeable between numbers.  
 
 ~~~
 Add("1,2\n3") > Returns 6
@@ -73,15 +70,15 @@ Add("1,\n")
 
 ##### Step 6 #####
 
-Support different delimiters. To change a delimiter, the beginning of the string will contain a separate line that looks like this:   
+Support different delimiters - to change a delimiter, the beginning of the string will contain a separate line that looks like this:   
 
-"//[delimiter]\n[numbers...]"  
+**"//[delimiter]\n[numbers...]"**  
 
 ~~~
 Add("//;\n1;2") > Returns 3  
 ~~~
 
-The first section is optional. All existing steps should still be supported.  
+The first section up to the \n is optional. All existing steps should still be supported.  
 
 ##### Step 7 #####
 
@@ -101,9 +98,9 @@ Add("1000,1001,2") > Returns 2
 
 ##### Step 9 #####
 
-Delimiters can be of any length with the following format...  
+Delimiters can be of any length with the following format.  
 
-"//[delimiter]\n"  
+**"//[delimiter]\n"**  
 
 ~~~
 Add("//[***]\n1***2***3") > Returns 6  
@@ -121,15 +118,15 @@ Add("//[*][%]\n1*2%3") > Returns 6
 
 ##### Step 11 #####
 
-Handle multiple delimiters with a length longer than one character...  
+Handle multiple delimiters with a length longer than one character.  
 
 ~~~
-Add("//[***][#][%]\n1***2#3") > Returns 6  
+Add("//[***][#][%]\n1***2#3%4") > Returns 10  
 ~~~
 
 ##### Step 12 #####
 
-Handle delimiters that have numbers as part of them, where the number cannot be on the edge of a delimiter...  
+Handle delimiters that have numbers as part of them, where the number cannot be on the edge of a delimiter.  
 
 ~~~
 Add("//[*1*][%]\n1*1*2%3") > Returns 6  
@@ -149,6 +146,8 @@ Add("//[*1*][%]\n1*1*2%3") > Returns 6
 - Delimiter of any length "//[dd]\n|[dd]2"=3  
 - Allow multiple delimiter "//[%][;]\n1%2;3"=6  
 - Multiple delimiter of any length  
+
+----------------------------------------------------------------------------------------------
 
 #### Notes on some sections ####
 
