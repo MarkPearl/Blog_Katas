@@ -110,7 +110,7 @@ Add("//[***]\n1***2***3") > Returns 6
 
 Allow multiple delimiters...  
 
-"//[delim1][delim2]\n"
+**"//[delim1][delim2]\n"**
 
 ~~~
 Add("//[*][%]\n1*2%3") > Returns 6  
