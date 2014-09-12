@@ -132,6 +132,8 @@ Handle delimiters that have numbers as part of them, where the number cannot be 
 Add("//[*1*][%]\n1*1*2%3") > Returns 6  
 ~~~
 
+Note, a delimiter of 1DD or DD1 is not valid as it has a number on the edge of it. D1D is a valid delimiter.
+
 ----------------------------------------------------------------------------------------------
 
 #### Quick Summary of the rules ####
