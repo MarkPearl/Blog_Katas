@@ -39,7 +39,7 @@ The following is not ok but you do not need to worry about this ever being an in
 Add("1,\n")
 ~~~
 
-##### Intermediate Requirements #####
+#### Intermediate Requirements ####
 
 - Support different delimiters - to change a delimiter, the beginning of the string will contain a separate line that looks like this **"//[delimiter]\n[numbers...]"**  The first section up to the \n is optional. All existing requirements from the basic requirements section should still be supported.  
 - Calling add with a negative number will throw an exception "Negatives not allowed" and the negative number that was passed.  
@@ -54,7 +54,7 @@ Add("1000,1001,2") > Returns 2
 Add("//[***]\n1***2***3") > Returns 6  
 ~~~
 
-##### Advanced Requirements #####
+#### Advanced Requirements ####
 
 - Handle multiple single character delimiters. **"//[delim1][delim2]\n"**
 - Handle multiple multi character delimiters.  
