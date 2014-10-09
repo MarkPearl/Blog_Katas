@@ -7,15 +7,13 @@ category: General
 
 #### The Problem ####
 
-- You are working for a new calculator company competeing with HP Calculators.  
+- You are working for a new calculator company competing with HP Calculators.  
 - Business has told you that if you can get the following library done for calculating the value of a string they will make millions.  
-- Write library that has a single add method that returns an integer value when called that meets the below requirements.  
+- Write a library that has a single add method that returns an integer value that meets the below requirements.  
 
 ----------------------------------------------------------------------------------------------
 
-#### The Basic Requirements ####
-
-Create a simple string calculator with a method that takes a string and returns a number. It should solve the following criteria. 
+#### Basic Requirements ####
 
 - A empty string returns zero.  
 - A single number returns that number.  
@@ -58,9 +56,9 @@ Add("//[***]\n1***2***3") > Returns 6
 
 ##### Advanced Requirements #####
 
-- Allow multiple delimiters... **"//[delim1][delim2]\n"**
-- Handle multiple delimiters with a length longer than one character.  
-- Handle delimiters that have numbers as part of them, where the number cannot be on the edge of a delimiter. Note - a delimiter of 1DD or DD1 is not valid as it has a number on the edge of it. D1D is a valid delimiter)
+- Handle multiple single character delimiters. **"//[delim1][delim2]\n"**
+- Handle multiple multi character delimiters.  
+- Handle delimiters that have numbers as part of them. The number cannot be on the edge of a delimiter. Note - a delimiter of 1DD or DD1 is not valid as it has a number on the edge of it. D1D is a valid delimiter)
 
 ~~~
 Add("//[*][%]\n1*2%3") > Returns 6  
