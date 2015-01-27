@@ -26,6 +26,7 @@ You are controlling a mars rover. You are given the initial starting point (x,y)
 - Implement wrapping from one edge of the grid to another. (planets are spheres after all)  
 - Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point and reports the obstacle.  
 
+----------------------------------------------------------------------------------------------
 
 #### Example ####
 
