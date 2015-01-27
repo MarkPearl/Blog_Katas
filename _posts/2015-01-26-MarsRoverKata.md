@@ -36,21 +36,23 @@ You are controlling a mars rover. You are given the initial starting point (x,y)
 
 ----------------------------------------------------------------------------------------------
 
-#### Simple Example ####
+#### Examples ####
+
+##### Simple Example 1 #####
 
 ~~~
 The rover is on a 100x100 grid at location (0, 0) and facing NORTH.  
 The rover is given the commands "ffrff" and should end up at (2, 2)  
 ~~~
 
-#### Simple Example ####
+##### Simple Example 2 #####
 
 ~~~
 The rover is on a 5x5 grid at location (1, 2) and facing NORTH.
 The rover is given the commands "lf lf lf lf f and should end up at (1, 3) facing NORTH.
 ~~~
 
-#### Complex Example with a Wrapping ####
+##### Complex Example with a Wrapping #####
 
 ~~~ 
 The rover is on a 5x5 grid at location (3,3) and facing EAST
