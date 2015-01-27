@@ -15,6 +15,8 @@ You are controlling a mars rover. You are given the initial starting point (x,y)
 
 - Develop an api that moves a rover around on a grid.  
 
+----------------------------------------------------------------------------------------------
+
 #### Basic Requirements ####
 
 - The rover receives a character array of commands.  
@@ -24,6 +26,8 @@ You are controlling a mars rover. You are given the initial starting point (x,y)
 - Implement wrapping from one edge of the grid to another. (planets are spheres after all)  
 - Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point and reports the obstacle.  
 
+
+#### Example ####
 
 ~~~
 The rover is on a 100x100 grid at location (0, 0) and facing NORTH.  
