@@ -17,10 +17,18 @@ You are controlling a mars rover. You are given the initial starting point (x,y)
 
 ----------------------------------------------------------------------------------------------
 
-#### Basic Requirements ####
+#### General Information ####
 
 - The rover receives a character array of commands.  
-- You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing.  
+- You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing. 
+- If you are at position (x,y) assume the block immediately north from (x,y) is (x,y-1).  
+- The first line of input is the upper-right coordinates of the plateau.   
+- The lower-left coordinates are assumed to be (0,0).  
+
+----------------------------------------------------------------------------------------------
+
+#### Basic Requirements ####
+
 - Implement commands that move the rover forward/backward (f,b).  
 - Implement commands that turn the rover left/right (l,r).  
 - Implement wrapping from one edge of the grid to another. (planets are spheres after all)  
@@ -28,12 +36,25 @@ You are controlling a mars rover. You are given the initial starting point (x,y)
 
 ----------------------------------------------------------------------------------------------
 
-#### Example ####
+#### Example on a 100x100 Grid ####
 
 ~~~
 The rover is on a 100x100 grid at location (0, 0) and facing NORTH.  
 The rover is given the commands "ffrff" and should end up at (2, 2)  
 ~~~
 
+#### Example of a 5x5 Grid ####
+
+~~~
+The rover is on a 5x5 grid at location (1, 2) and facing NORTH.
+The rover is given the commands "lf lf lf lf f and should end up at (1, 3) facing NORTH.
+~~~
+
+#### Example of a 5x5 Grid with a wrapping scenario ####
+
+~~~ 
+The rover is on a 5x5 grid at location (3,3) and facing EAST
+The rover is given the commands "ffr ffr fr rf" and should end up at (0, 1) facing EAST
+~~~
 
 
