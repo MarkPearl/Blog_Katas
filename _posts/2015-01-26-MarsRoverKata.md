@@ -52,11 +52,18 @@ The rover is on a 5x5 grid at location (1, 2) and facing NORTH.
 The rover is given the commands "lf lf lf lf f and should end up at (1, 3) facing NORTH.
 ~~~
 
-##### Complex Example with a Wrapping #####
+##### Simple Example 3 #####
 
 ~~~ 
 The rover is on a 5x5 grid at location (3,3) and facing EAST
-The rover is given the commands "ffr ffr fr rf" and should end up at (0, 1) facing EAST
+The rover is given the commands "ffr ffr fr rf" and should end up at (5, 1) facing EAST
+~~~
+
+##### Complex Example with a Wrapping #####
+
+~~~ 
+The rover is on a 5x5 grid at location (0,0) and facing EAST
+The rover is given the commands "br br" and should end up at (5, 1) facing WEST
 ~~~
 
 
