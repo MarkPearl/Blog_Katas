@@ -42,7 +42,7 @@ M = 1000
 
 #### Restrictions ####
 
-- Try solve the problem with doing any numeric conversion (i.e. you cannot convert the roman numeral to a decimal number  
+- Try solve the problem with doing any numeric conversion (i.e. you cannot convert the roman numeral to a decimal number)  
 
 ----------------------------------------------------------------------------------------------
 
