@@ -15,6 +15,8 @@ category: General
 - The challenge consists of 3 questions.  
 - The intention of the challenge is not to test specific AP{Is or class libraries  
 
+----------------------------------------------------------------------------------
+
 #### Question 1 - Matrix Challenge ####
 
 - Write a console application to display a square matrix of zeros and ones.  
@@ -31,6 +33,7 @@ category: General
 000010  
 000001  
 ~~~
+----------------------------------------------------------------------------------
 
 #### Question 2 - Ancestors ####
 
@@ -72,3 +75,31 @@ Mary
 5. The ancestal line displayed needs to be ordered form the most distant ancestor to least distant ancestor.  
 6. You don't need to consider ancestral loops.  
 7. Your implementation doesn't need to worry about performance.  
+
+----------------------------------------------------------------------------------
+
+#### Question 3 - Soccer ####
+Write an pplication that will use the information in the two files to display the soccer clubs that correspond to a set of comma-delimited country codes that the user enters.
+
+For example:
+
+When the suer enters the comma-delimited set of codes "ZA,BR", the program will display all the clubs corresonding to both South Africa and Brazil.
+
+~~~
+Pirates
+Sundowns
+Chiefs
+Coruripe
+Comercial
+~~~
+
+If there are no clubs that correspond to the country codes entered, the program will display **No Results**.  
+
+
+##### Things to note #####
+1. The order of the results is not important.  
+2. You can assume that the comma-delimited list of country codes entered by the user never contains whitespace, and that the country codes entered are always upper case.  
+3. You can assume that Countries.txt will never contain any repeats of country names and codes.
+4. You can assume that Clubs.txt file will never contain any repats of club names.  
+5. You can assume that both text files will always be encoded as US-ASCII;  
+6. Your implementation doesn't need to worry about performance.  
