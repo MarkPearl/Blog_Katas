@@ -79,13 +79,30 @@ Mary
 ----------------------------------------------------------------------------------
 
 #### Question 3 - Soccer ####
-Write an application that will use the information in the two files to display the soccer clubs that correspond to a set of comma-delimited country codes that the user enters.
+Write an application that will use the information in the two files to display the soccer clubs that correspond to a set of comma-delimited country codes that the user enters. You need to create the two files from the Country (country.csv) and Soccer Clubs (clubs.csv) sample data below.
 
-##### Sample Data #####
+##### Country Sample Data #####
 
-~~~ Country.txt
-this
 ~~~
+South Africa, ZA
+Brazil, BR
+United Kingdom, UK
+~~~
+
+##### Soccer Clubs Sample Data #####
+
+~~~
+Pirates, ZA
+Sundowns, ZA
+Chiefs, ZA
+Coruripe, BR
+Commercial, BR
+Man Utd, UK
+Chelsea, UK
+~~~
+
+##### Example 1 #####
+
 For example:
 
 When the suer enters the comma-delimited set of codes "ZA,BR", the program will display all the clubs corresonding to both South Africa and Brazil.
