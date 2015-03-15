@@ -14,7 +14,7 @@ Write an application that will use the information files to display the soccer c
 1. The order of the results is not important.  
 2. You can assume that the comma-delimited list of country codes entered by the user never contains whitespace, and that the country codes entered are always upper case.  
 3. You can assume that Countries.txt will never contain any repeats of country names and codes.
-4. You can assume that Clubs.txt file will never contain any repats of club names.  
+4. You can assume that Clubs.txt file will never contain any repeats of club names.  
 5. You can assume that both text files will always be encoded as US-ASCII;  
 6. Your implementation doesn't need to worry about performance.  
 
