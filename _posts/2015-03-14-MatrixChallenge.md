@@ -1,6 +1,6 @@
 ---
 layout: post
-title: General Developer Challenge
+title: Matrix Challenge
 tags: Useful
 category: General
 ---
