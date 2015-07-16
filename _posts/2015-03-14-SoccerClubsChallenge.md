@@ -46,7 +46,7 @@ Chelsea, UK
 
 For example:
 
-When the suer enters the comma-delimited set of codes "ZA,BR", the program will display all the clubs corresonding to both South Africa and Brazil.
+When the user enters the comma-delimited set of codes "ZA,BR", the program will display all the clubs corresonding to both South Africa and Brazil.
 
 ~~~
 Pirates
